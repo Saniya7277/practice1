@@ -8,7 +8,7 @@ BASE_URL = "https://jsonplaceholder.typicode.com"
 @app.route('/')
 def home():
     return jsonify({
-        "message": "API is running successfully success",
+        "message": "API is running successfully and deployed sucessfully",
         "routes": ["/posts", "/comments", "/albums"]
     })
 
